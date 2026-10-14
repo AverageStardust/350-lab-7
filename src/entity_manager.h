@@ -8,6 +8,8 @@
 using EntityID = size_t;
 
 template <typename... ComponentTypes>
-class EntityManager {};
+class EntityManager {
+    using EntityID = size_t;
+};
 
 #endif  // ENTITY_MANAGER_H
